@@ -6,7 +6,7 @@
  * Kelas : 12.5B.13
  * Ketua : Andika eka putra - 12181924
  * Anggota : Rizki hutama   - 12181937
- *         : Risvika ananda - 
+ *         : Risvika ananda - 12181995
  *         : Putri amalia   - 12185031
  *         : Sakti sudirman - 12180962
  */
