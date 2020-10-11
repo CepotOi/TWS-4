@@ -77,12 +77,13 @@ class Rest_member extends REST_Controller
      */
 
     $id = $this->put('id');
-    $data = array(
-      'id' => $this->post('id'),
-      'nama_member' => $this->post('nama_member'),
-      'email' => $this->post('email'),
-      'no_telp' => $this->post('no_telp')
-    );
+    $data =
+      [
+        'id' => $this->post('id'),
+        'nama_member' => $this->post('nama_member'),
+        'email' => $this->post('email'),
+        'no_telp' => $this->post('no_telp')
+      ];
     $this->db->where('id', $id);
     $update = $this->db->update('member', $data);
     if ($update) {
